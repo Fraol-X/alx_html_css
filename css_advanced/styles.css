@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.background-image{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll; 
+    background-size: cover;
+    padding: 0px;
+    height: 150vh; 
+    color: white;
+}
+.nav-spot {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0px 50px 0 50px;
+    padding-top: 30px; 
+}
+
+.nav-spot li {
+    display:inline-block;
+}
+
+.nav-spot a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 10px 5px;
+}
+.center-text {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.center-text h1 {
+    font-weight: bold;
+    font-size: 120px;
+   
+}
+.center-text span {
+   margin: 40px;
+   margin-bottom: 50px;
+}
+
+.span-up {
+   margin-top: -100px;
+}
+
+.center-text button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(194, 113, 255);
+    margin-bottom: 250px;
+ }
+ .learn {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: lighter;
+ }
+ .color {
+    color: rgb(194, 113, 255);
+ }
+ .bottom {
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px; 
+    margin-top: 100px;
+ }
+ .round img {
+    border-radius: 50%;
+ } 
+
+ .profile-1 p {
+    display:block;
+ }
+
+ .weather {
+    display: flex;
+    background-color: rgb(194, 113, 255);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    height: 300px;
+ }
+ .weather img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    margin-left: 80px;
+ }
+ .weather-text {
+    
+    padding: 50px; 
+    margin-right: 80px;
+    width: 630px;
+ }
+ .weather-text h3, p {
+    margin-left: 1px; 
+    padding-left: 1px;
+ }
+
+ .weather .weather-text {
+   width: 600px;
+ }
+
+ .weather-text blockquote{
+   margin: 0px;
+ }
+
+ .videos {
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px; 
+    display: block;
+ }
+
+ .videos h2 {
+    text-align: center;
+    display: flex;
+    display: block;
+    font-weight: lighter;
+    margin-top: 50px;
+ }
+
+ .header-middle-color {
+    color: rgb(194, 113, 255); 
+ }
+
+ .side-by-side {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   margin-bottom: 70px;
+ }
+
+ .side-by-side h4{
+   width: 200px;
+    color: rgb(194, 113, 255);
+ }
+
+ .side-by-side p {
+   color: rgb(147, 150, 154)
+ }
+
+ .video-par {
+   width: 300px;
+ }
+
+ .small-pic {
+   width: 30px;
+   height: 30px;
+   margin-right: 30px;;
+ }
+
+ .min {
+   display: flex;
+   align-items: center;
+ }
+
+ .rating {
+   display: flex;
+   color: rgb(194, 113, 255);
+ }
+
+ .rating p {
+   color: rgb(194, 113, 255);
+ }
+
+ .rating img {
+   height: 15px;
+   margin-right: 100px;
+ }
+
+ .smile-vid {
+   position: relative;
+ }
+
+ .play {
+   position: absolute;
+   top: 50px;
+   left: 100px;
+ }
+
+ .membership {
+    text-align: center;
+    display: flex;
+    background-color: rgb(7, 22, 41);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    display: block;
+ }
+
+ .membership h2 {
+    text-align: center;
+    display: flex;
+    display: block;
+ }
+
+ .smile {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    gap: 20px;
+ }
+
+ .smile div {
+    text-align: center;
+    max-width: 200px;
+ }
+
+ .free-color {
+    color: rgb(194, 113, 255)
+ }
+
+ .smile h3, p {
+    margin:0;
+    padding:0;
+    margin-bottom: 40px;
+ }
+
+ .reg {
+    color: white;
+    background-color: rgb(194, 113, 255);
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+ }
+
+ .FAQ h2 {
+    text-align: center;
+    font-size: 40px; 
+    font-weight: lighter;
+    margin-top: 50px;
+ }
+
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 50px;
+}
+
+.grid-item {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.grid-item h3 {
+    margin-top: 10;
+}
+
+.grid-item p {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgb(7, 22, 41);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    height: 150px;
+    padding-right: 150px;
+}
+
+.footer img {
+    height: 40px;
+    width: auto;
+    padding-left: 100px;
+    padding-top: 20px; 
+}
+
+.footer i {
+    color: white;
+    margin-left: 50px;
+    text-align: end;
+    font-size: 30px;
+}
+
+.footer-p {
+    background-color: rgb(7, 22, 41);
+    color: white;
+    text-align: center;
+    margin-top: 0px; 
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+
+
