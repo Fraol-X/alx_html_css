@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+   
+}
+
+.back-ground {
+    background-image: url(headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    height: 800px;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 100px 0 100px;
+    align-items: center;
+}
+
+.nav-top img {
+    height: 30px;
+
+}
+
+.nav-top li {
+    display: inline-block;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 10px 5px;
+}
+
+.nav-top a:hover, a:active {
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+.center-text {
+    width: 637px;
+    height: 313px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 280px 381px 115px 382px;
+    color: white;
+}
+
+.center-text h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.center-text h4 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+.center-text button {
+    margin-bottom: 80px;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center-text button:hover {
+    opacity: 0.9;
+}
+
+.center-text button:active {
+    opacity: 0.9;
+}
+
+.center-text p {
+    margin-bottom: 115px;
+    font-size: 16px; 
+    width: 600px;
+    margin: 0 auto;
+}
+
+.check-button {
+    display: none;
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+#check {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    
+    .back-ground {
+        
+        background-position: center;
+        height: 869px;
+        align-items: end;
+    }
+    
+    .nav-top li {
+        display: none;
+    }
+
+    .nav-top img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .check-button{
+        display: block;
+       
+    }
+
+    .center-text {
+        width: 0%;
+    }
+
+    .center-text {
+        width: 357px;
+        height: 436px;
+        margin: 0 auto;
+        margin: 270px 9px 106px 9px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center-text p {
+        width: 320px;
+    }
+
+    
+   
+    }
+
