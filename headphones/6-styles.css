@@ -129,6 +129,7 @@ body {
 .what-we-do {
     display: flex;
     padding: 0 150px 0 150px;
+    height: 30vh;
 }
 
 #icons {
@@ -286,6 +287,38 @@ body {
     cursor: pointer;
 }
 
+.footer {
+    background-color: #071629;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    height: 150px;
+}
+
+.footer img {
+    height: 32px;
+    width: auto;
+}
+
+.footer i {
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.footer-p {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
+
 @media (max-width: 480px) {
     
     .back-ground {
@@ -363,7 +396,21 @@ body {
     height: 100vh;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.footer img {
+    padding-bottom: 30px;
+}
+
+.footer i {
+    padding-bottom: 30px;
+}
 
     }
 
