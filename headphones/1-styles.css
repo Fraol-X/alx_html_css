@@ -97,13 +97,13 @@ body {
 
 .check-button {
     display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white; 
     position: absolute;
-    left: 20px;
-    font-size: 20px;
-    color: white;
-    
+    top: 10px;
+    left: 10px;
 }
-
 #check {
     display: none;
 }
@@ -150,10 +150,18 @@ body {
         height: 869px;
         align-items: end;
     }
-    
-    .nav-top ul {
-        display: none;
-    }
+
+        ul {
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        top: -100%;
+        left: 80px;
+        padding: 10px 0;
+        text-align: center;
+        transition: all .5s;
+        }
+
 
     .nav-top img {
         margin-left: auto;
@@ -195,5 +203,13 @@ body {
         margin-top: 110px;
         padding-bottom: 20px;
     }
+
+    #check:checked ~li {
+        top: 0;
+    }
+    #check:checked ~ ul {
+        float: inline-end;
+    }
+
     }
 
